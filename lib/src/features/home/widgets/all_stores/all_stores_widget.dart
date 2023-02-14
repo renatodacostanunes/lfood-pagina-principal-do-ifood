@@ -3,8 +3,7 @@ import 'package:pepperoni/pepperoni.dart';
 
 class AllStoresWidget extends StatefulWidget {
   final TabController tabController;
-  const AllStoresWidget({Key? key, required this.tabController})
-      : super(key: key);
+  const AllStoresWidget({Key? key, required this.tabController}) : super(key: key);
 
   @override
   State<AllStoresWidget> createState() => _AllStoresWidgetState();
@@ -43,15 +42,13 @@ class _AllStoresWidgetState extends State<AllStoresWidget> {
                   widget.tabController.animateTo(4);
                 },
                 label: 'Farmacia',
-                imageUrl:
-                    'https://idec.org.br/sites/default/files/dicasedireitos/imagem_noticia_1_0.png'),
+                imageUrl: 'https://idec.org.br/sites/default/files/dicasedireitos/imagem_noticia_1_0.png'),
             CategoryListItem(
                 onTap: (item) {
                   widget.tabController.animateTo(5);
                 },
                 label: 'Pet',
-                imageUrl:
-                    'https://www.amoviralata.com/wp-content/uploads/2021/06/nome-pet-shop.png'),
+                imageUrl: 'https://www.amoviralata.com/wp-content/uploads/2021/06/nome-pet-shop.png'),
             CategoryListItem(
                 onTap: (item) {
                   Navigator.of(context).push(
@@ -61,8 +58,7 @@ class _AllStoresWidgetState extends State<AllStoresWidget> {
                   );
                 },
                 label: 'Clube Lfood',
-                imageUrl:
-                    'https://pbs.twimg.com/profile_images/1406730683595341828/H2SAhdvB_400x400.jpg'),
+                imageUrl: 'https://pbs.twimg.com/profile_images/1406730683595341828/H2SAhdvB_400x400.jpg'),
             CategoryListItem(
                 onTap: (item) {
                   Navigator.of(context).push(
@@ -72,34 +68,31 @@ class _AllStoresWidgetState extends State<AllStoresWidget> {
                   );
                 },
                 label: 'Feed',
-                imageUrl:
-                    'https://i.pinimg.com/originals/7a/e2/0e/7ae20e8b68ebab2473bef78abfca6662.jpg'),
+                imageUrl: 'https://i.pinimg.com/originals/7a/e2/0e/7ae20e8b68ebab2473bef78abfca6662.jpg'),
           ],
         ),
         const CouponsAndNewsWidget(
           imageList: [
-            'http://ifood.com.br/nws/2018-09-28-tudo-por-5/images/header_tudo_5_v3.gif',
             'https://gkpb.com.br/wp-content/uploads/2020/03/ifood-tudo-por-099-geek-publicitario.jpg',
-            'http://ifood.com.br/nws/2018-09-28-tudo-por-5/images/header_tudo_5_v3.gif',
             'https://gkpb.com.br/wp-content/uploads/2020/03/ifood-tudo-por-099-geek-publicitario.jpg',
-            'http://ifood.com.br/nws/2018-09-28-tudo-por-5/images/header_tudo_5_v3.gif',
             'https://gkpb.com.br/wp-content/uploads/2020/03/ifood-tudo-por-099-geek-publicitario.jpg',
-            'http://ifood.com.br/nws/2018-09-28-tudo-por-5/images/header_tudo_5_v3.gif',
+            'https://gkpb.com.br/wp-content/uploads/2020/03/ifood-tudo-por-099-geek-publicitario.jpg',
+            'https://gkpb.com.br/wp-content/uploads/2020/03/ifood-tudo-por-099-geek-publicitario.jpg',
+            'https://gkpb.com.br/wp-content/uploads/2020/03/ifood-tudo-por-099-geek-publicitario.jpg',
+            'https://gkpb.com.br/wp-content/uploads/2020/03/ifood-tudo-por-099-geek-publicitario.jpg',
             'https://gkpb.com.br/wp-content/uploads/2020/03/ifood-tudo-por-099-geek-publicitario.jpg',
           ],
         ),
         const SizedBox(height: 16),
         const AdvertisingWidget(
-          imageUrl:
-              'https://gkpb.com.br/wp-content/uploads/2020/03/ifood-tudo-por-099-geek-publicitario.jpg',
+          imageUrl: 'https://gkpb.com.br/wp-content/uploads/2020/03/ifood-tudo-por-099-geek-publicitario.jpg',
         ),
         const SizedBox(height: 16),
         BestRestaurantsWidget(
           restaurants: List.generate(
             10,
             (index) => BestRestaurantItem(
-              urlImage:
-                  'http://ifood.com.br/nws/2018-09-28-tudo-por-5/images/header_tudo_5_v3.gif',
+              urlImage: 'https://gkpb.com.br/wp-content/uploads/2020/03/ifood-tudo-por-099-geek-publicitario.jpg',
               id: index,
               name: '$index - Subway Sao Pelegrino',
             ),
@@ -117,8 +110,7 @@ class _AllStoresWidgetState extends State<AllStoresWidget> {
                 price: '4.9',
                 time: '${25 + index}',
                 kindOfItem: 'Lanche',
-                imageUrl:
-                    'https://gkpb.com.br/wp-content/uploads/2020/03/ifood-tudo-por-099-geek-publicitario.jpg'),
+                imageUrl: 'https://gkpb.com.br/wp-content/uploads/2020/03/ifood-tudo-por-099-geek-publicitario.jpg'),
           ),
         ),
         const SizedBox(height: 16),

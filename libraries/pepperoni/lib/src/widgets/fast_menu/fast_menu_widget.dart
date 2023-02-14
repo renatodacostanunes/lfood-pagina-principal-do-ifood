@@ -29,7 +29,7 @@ class FastMEnuWidget extends StatelessWidget {
                     right: 5,
                     top: 5,
                     child: Image.network(
-                      'https://www.boojummex.com/assets/uploads/Quesa-cut-out-Job_4649_dropshadow.png',
+                      'https://i.pinimg.com/originals/7a/e2/0e/7ae20e8b68ebab2473bef78abfca6662.jpg',
                     ),
                   ),
                   const Positioned(
